@@ -1,0 +1,15 @@
+1. Collect info about HDD. Scan every sector and calculate every tiny free space in every sector that are shown as full (but not actually full).
+
+2. Make detailed addresses for every piece of hard drive and put it into an array.
+
+3. turn every input (data) and turn it into a binary format and remember the original format. or scan as a raw format (0 and 1)
+
+4. Separate every bit and put into an array.
+
+5. Create a Hash (key/value)
+
+6. Update the Hash like this ( key=array[x]) (value=[address])
+
+7. use the hash to write every bit in its suitable address in Hard Drive.
+
+8. if data is asked: retrieve the bits using addresses and put them in order using that array[x].
